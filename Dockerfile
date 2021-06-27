@@ -16,6 +16,7 @@ RUN apt-get install -y neofetch
 RUN apt-get install -y apt-utils
 RUN apt-get install -y git
 RUN apt-get install -y nano
+RUN apt install -y virtualbox
 RUN apt-get install -y tigervnc-standalone-server
 RUN npm install -g heroku
 COPY root.sh /usr/local/bin/root.sh
